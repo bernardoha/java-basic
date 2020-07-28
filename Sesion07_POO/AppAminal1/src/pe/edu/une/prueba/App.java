@@ -26,5 +26,15 @@ public class App {
 		anim = new Perro("Firulais","Pastor aleman","Negro","Grande","Mi Mascot");
 		anim.muestraDatos();
 		anim.imprimeInformacion();
+		System.out.println("********************************************");
+		System.out.println("Mi mascota favorita");
+		//Editar nombre con el método set
+		anim.setNombre("Bruce");
+		//Mostrar el nombre
+		System.out.println(anim.getNombre()+" "+anim.getRaza());
+		System.out.println("********************************************");
+		//Crear una instancia del objeto Perro
+		Perro perro1=new Perro("Valentino","Pitbull","blanco","Mediano","Ricocan");
+		
 	}
 }
