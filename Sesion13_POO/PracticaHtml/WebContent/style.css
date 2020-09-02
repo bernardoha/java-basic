@@ -1,0 +1,19 @@
+h1{
+	color: blue;
+	font-size: 40px;
+}
+#subtitulo{
+	color: green;
+	font-size: 30px;
+}
+article{
+	background: #DCF35C;
+}
+.tituloa{
+	color: red;
+	font-size: 25px;
+	font-family: Helvetica, sans-serif;
+}
+nav div ul li{
+	margin-left: 10px;
+}
